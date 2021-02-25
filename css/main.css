@@ -1,0 +1,69 @@
+
+  
+    
+
+ body{
+     margin: 30px;
+    padding: 30px;
+    display: block;
+    }   
+.button {
+    margin: 10px;
+    display: inline-block;
+    padding: 5px 30px;
+    background: #132af5;
+    
+    border-radius: 10px;
+
+
+    text-align: center;
+    color: #ffffff;
+}
+.form-block {
+    display: flex;
+    justify-content: space-between;
+}
+ .model-summary {
+     text-align: right;
+  
+ }
+    
+.row {
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.colorItem {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50% ;
+}
+.colorItem.colorBlue {
+    
+    background-color: #0f26f8;
+}
+.colorItem.colorWhite {
+  
+    background-color: rgb(247, 242, 242);
+}
+.colorItem.colorRed{
+   
+    background-color: red;
+}
+.colorItem.colorBlack {
+  background-color: #000000;
+}
+.colorItem.colorWhitePure {
+    background-color: rgb(243, 240, 240);
+}
+.colorItem.colorOrange {
+    background-color: rgba(241, 102, 21, 0.959);
+}
+.colorItem.colorGrey {
+    background-color: rgb(53, 51, 51);
+}
+.colorItem.colorLight {
+    background-color: #5b5b61;
+}

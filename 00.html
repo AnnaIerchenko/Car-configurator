@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>00-learn jquery</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+   
+    <div class="form-block">
+        <div id="colorSelector" class="colorSelector">
+            <div class="colorItem colorBlue" data-img-path="img/blue.jpg"></div>
+            <div class="colorItem colorWhite" data-img-path="img/white.jpg"></div>
+            <div class="colorItem colorRed" data-img-path="img/red.jpg"></div>
+            <div class="colorItem colorBlack" data-img-path="img/black.jpg"></div>
+            <div class="colorItem colorWhitePure" data-img-path="img/white.jpg"></div>
+            <div class="colorItem colorOrange" data-img-path="img/orange.jpg"></div>
+            <div class="colorItem colorGrey" data-img-path="img/darkgrey.jpg"></div>
+            <div class="colorItem colorLight" data-img-path="img/graphite.jpg"></div>
+
+        </div>
+    
+    <div class="model-summary">
+        <div class="model-name">Hundai solaris</div>
+        <div class="model-specs" id="modelSpecs"></div>
+        <div class="model-price" id="modelPrice"></div>
+        <div class="model-price" id="modelPriceEUR"></div>
+        <div class="button">Order</div>
+    </div>
+</div>
+    <div id="imgHolder" class="imgHolder">
+        <img src="img/silver.jpg" alt="avto">
+
+       
+    </div>
+
+    <form id="autoForm">
+        <h2>Customize the car for yourself</h2>
+        <div class="row">
+            <!--col-1-of-3-->
+            <div class="col-1-of-3">
+                <h4>Engine</h4>
+                <div class="form-block">
+                    <input type="radio" name="engine" id="engine1400" value="624900" checked>
+                    <label for="engine1400">1.4 l (100 h.p)</label>
+                </div>
+                <div class="form-block">
+                    <input type="radio" name="engine" id="engine1600" value="749900">
+                    <label for="engine1600">1.6 l (123 h.p)</label>
+                </div>
+            </div>
+            <!--// col-1-of-3-->
+            <!-- col-1-of-3-->
+            <div class="col-1-of-3">
+            <h4>Transmission</h4>
+            <div class="form-block">
+                <input type="radio" name="transmission" id="transmission6MT" value="0" checked>
+                <label for="transmission6MT">Manual, 6 st(6MT)</label>
+            </div>
+            <div class="form-block">
+                <input type="radio" name="transmission" id="transmission6AT" value="125000">
+                <label for="transmission6AT">Automatic, 6 st(6AT)</label>
+            </div>
+            </div>
+        <!--//col-1-of-3-->
+        <!--col-1-of-3-->
+        <div class="col-1-of-3">
+            <h4>Package (additional option)</h4>
+
+            <div class="form-block">
+                <input type="radio" name="package" id="packageActive" value="0" checked>
+                <label for="packageActive">Active</label>
+            </div>
+            <div class="form-block">
+                <input type="radio" name="package" id="packageActivePlus" value="85000">
+                <label for="packageActivePlus">Activ Plus (conditioner)</label>
+            </div>
+            <div class="form-block">
+                <input type="radio" name="package" id="packageComfort" value="130000">
+                <label for="packageComfort">Comfort (climat-control)</label>
+            </div>
+        </div>
+        <!--//col-1-of-3-->
+    </div>
+
+        
+   
+
+
+
+
+    </form>
+
+    
+
+
+
+
+    <script src="libs/jquery/jquery-3.5.1.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
